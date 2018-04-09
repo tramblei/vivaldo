@@ -1,0 +1,31 @@
+# Ignore unimportant IP Project files.
+ip_repo/ip_projects/**/geralds*cache
+ip_repo/ip_projects/**/geralds*runs
+ip_repo/ip_projects/**/geralds*sim
+
+# Ignore unimportant vivaldo files.
+work_dir/vivaldo/*cache
+work_dir/vivaldo/*runs
+work_dir/vivaldo/*sim
+work_dir/vivaldo/*tmp
+
+# Ignore Vivado tracking files.
+work_dir/vivado*
+work_dir/*log
+work_dir/*jou
+work_dir/.Xil
+vivado*
+*log
+*jou
+.Xil
+
+# Ignore swaps and tmps.
+*.swp
+*.tmp
+
+# executables
+*.o
+*.d
+*.pyc
+
+*metadata*
