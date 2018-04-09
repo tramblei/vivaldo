@@ -1,0 +1,3 @@
+[submodule "vivaldo-server"]
+	path = vivaldo-server
+	url = https://github.com/tramblei/vivaldo-server.git

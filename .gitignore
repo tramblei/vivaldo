@@ -4,20 +4,18 @@ ip_repo/ip_projects/**/geralds*runs
 ip_repo/ip_projects/**/geralds*sim
 
 # Ignore unimportant vivaldo files.
-work_dir/vivaldo/*cache
-work_dir/vivaldo/*runs
-work_dir/vivaldo/*sim
-work_dir/vivaldo/*tmp
+*cache
+*runs
+*sim
+*tmp
+*hw
+*ip_user_files
 
 # Ignore Vivado tracking files.
-work_dir/vivado*
-work_dir/*log
-work_dir/*jou
-work_dir/.Xil
-vivado*
 *log
 *jou
 .Xil
+vivado*
 
 # Ignore swaps and tmps.
 *.swp

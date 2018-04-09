@@ -1,0 +1,33 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port s_axi_aclk -pg 1 -y 220 -defaultsOSRD
+preplace port vauxp3 -pg 1 -y 180 -defaultsOSRD
+preplace port s_axis_aclk -pg 1 -y 200 -defaultsOSRD
+preplace port vauxn3 -pg 1 -y 160 -defaultsOSRD
+preplace port s_axi_lite -pg 1 -y 60 -defaultsOSRD
+preplace port s_axi_aresetn -pg 1 -y 240 -defaultsOSRD
+preplace port M_AXIS -pg 1 -y 50 -defaultsOSRD
+preplace portBus channel_out -pg 1 -y 290 -defaultsOSRD
+preplace portBus temp_out -pg 1 -y 310 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst xadc_wiz_0 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace netloc vauxn3_1 1 0 2 -60J 170 160
+preplace netloc xadc_wiz_0_temp_out 1 2 1 N
+preplace netloc vauxp3_1 1 0 2 NJ 180 150
+preplace netloc s_axi_aclk_1 1 0 2 NJ 220 130
+preplace netloc s_axi_aresetn_1 1 0 2 NJ 240 120
+preplace netloc xadc_wiz_0_M_AXIS 1 2 1 520
+preplace netloc s_axis_aclk_1 1 0 2 NJ 200 140J
+preplace netloc xlconstant_0_dout 1 1 1 170
+preplace netloc s_axi_lite_1 1 0 2 NJ 60 170
+preplace netloc xadc_wiz_0_channel_out 1 2 1 520
+levelinfo -pg 1 -80 40 360 540 -top -10 -bot 440
+",
+}
+{
+   da_axi4_cnt: "7",
+   da_board_cnt: "5",
+   da_clkrst_cnt: "10",
+   da_mb_cnt: "2",
+}
