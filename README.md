@@ -7,6 +7,7 @@ Vivaldo is a tool to provide real-time feedback to musicians. It consists of a s
 * Real time LED feedback indicating correlation between song stored on server and actual audio inputted by user
 * Plot of correlation values (vs. time) that is sent back to server and saved
 
+A video demostrating functionality and complete documentation are located in the docs/ directory. 
 
 ## Getting Started
 
