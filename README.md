@@ -11,7 +11,7 @@ A video demostrating functionality and complete documentation are located in the
 
 ## Getting Started
 
-The main project is called vivaldo_fresh_eth_xadc_fft_dma_corr.xpr. All custom IP is located immediately inside the ip_repo/ directory. Custom IP projects (for editing) are located in the ip_repo/ip_projects directory.
+The main project is src/vivaldo_fresh_eth_xadc_fft_dma_corr.xpr. All custom IP is located inside the src/ip_repo/ directory. Custom IP projects (for editing) are located in the src/ip_repo/ip_projects directory.
 
 The server application is tracked via a git submodule [https://github.com/tramblei/vivaldo-server](https://github.com/tramblei/vivaldo-server).
 
@@ -22,7 +22,7 @@ Project created using Vivado 2017.2 on Ubuntu.
 Server uses Python3.
 
 ### Generating Bitstream
-Open vivaldo_fresh_eth_xadc_fft_dma_corr.xpr in Vivado and elect to generate the bistream. The ip_repo might need to be added in Tools/settings/IP/repository. 
+Open src/vivaldo_fresh_eth_xadc_fft_dma_corr.xpr in Vivado and generate the bistream. The src/ip_repo might need to be added in Tools/Settings/IP/Repository. 
 
 ### Running Test
 * Launch the Xilinx SDK from within the Vivaldo project in Vivado
